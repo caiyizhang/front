@@ -7,7 +7,7 @@
 
 <script>
     export default {
-    name: 'menu',
+    name: 'Menu',
     data () {
         return {
         msg: 'Welcome to Your Vue.js App'

@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 // import HelloWorld from '@/components/HelloWorld'
-import login from '@/components/Weixin'
-import menu from '@/components/Menu'
+import Login from '@/components/Weixin'
+import Menu from '@/components/Menu'
 
 Vue.use(Router)
 
@@ -10,13 +10,13 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'login',
-      component: login
+      name: 'Login',
+      component: Login
     },
     {
-      path: '/menu',
-      name: 'menu',
-      component: menu
+      path: '/Menu',
+      name: 'Menu',
+      component: Menu
     },
   ]
 })
