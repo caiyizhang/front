@@ -1,6 +1,5 @@
 <template>
   <div id="grid">
-
     <div id="signin">
       <h3>登录账号</h3>
       <form>

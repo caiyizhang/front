@@ -13,12 +13,16 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "@amap/amap-jsapi-loader": "^1.0.1",
     "@topology/activity-diagram": "^1.1.0",
     "@topology/core": "^1.2.14",
     "@topology/flow-diagram": "^1.1.1",
     "axios": "^0.27.2",
     "echarts": "^5.3.3",
     "element-ui": "^2.15.9",
+    "less": "^4.0.0",
+    "less-loader": "^5.0.0",
+    "moment-timezone": "^0.5.44",
     "mxgraph-js": "^1.0.1",
     "topology-vue": "^0.5.38",
     "vue": "^2.7.10",

@@ -7,7 +7,7 @@ import router from './router'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import * as echarts from 'echarts'
-
+import './assets/css/index.css'
 // import ETable from "@lozvoe/e-table"
 // import "@lozvoe/e-table/lib/e-table.css"
 

@@ -2,7 +2,7 @@
   <el-container>
             <el-aside height="200px" weight="200px">
             <div>
-              <el-button 
+              <el-button
               v-for="(item, $index) in addressList"
             :key="$index"
             :label="item.value"
@@ -16,7 +16,7 @@
             <div id="container"></div>
           </el-main>
           </el-container>
-    
+
   </template>
   <script>
   import AMapLoader from "@amap/amap-jsapi-loader";
@@ -52,7 +52,7 @@
     },
 
     methods: {
-      
+
       initAMap() {
         let that = this;
         AMapLoader.load({
@@ -114,4 +114,3 @@
     height: 600px;
   }
   </style>
-  
