@@ -9,7 +9,7 @@ import 'element-ui/lib/theme-chalk/index.css'
 import * as echarts from 'echarts'
 
 // import ETable from "@lozvoe/e-table"
-// import "@lozvoe/e-table/lib/e-table.css" 
+// import "@lozvoe/e-table/lib/e-table.css"
 
 
 //注册组件
