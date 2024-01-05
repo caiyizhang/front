@@ -1,8 +1,10 @@
 <template>
   <div>
     <el-header class="uweb-header">
+      <div class="uweb-box">
         <img src="../assets/logo.png" class="image">
         <span>选址大师</span>
+      </div>
         <span>admin</span>
       </el-header>
   </div>
@@ -18,7 +20,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="less" scoped>
 .uweb-header{
   height: 50px;
   border-bottom: 1px solid #ccc;
@@ -26,6 +28,9 @@ export default {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  .uweb-box{
+    line-height: 50px;
+  }
 }
 .image{
   width: 50px;
