@@ -43,13 +43,13 @@ export default {
                 }
               })
             } else {
-              console.error("响应对象中缺少或无效的 'dataIndex' 属性。");
+              that.$message.error("响应对象中缺少或无效的 'dataIndex' 属性。");
             }
           } else {
-            console.error("actionObj 中缺少或无效的 'myKey' 属性。");
+            that.$message.error("actionObj 中缺少或无效的 'myKey' 属性。");
           }
         } else {
-          console.error("params 对象中缺少或无效的 'target' 属性。");
+          that.$message.error("params 对象中缺少或无效的 'target' 属性。");
         }
         // console.log(param)
         // that.$router.push({

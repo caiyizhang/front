@@ -23,10 +23,6 @@ export default new Router({
       component: Layout,
       children:[
         {
-          path:'/Layout',
-          redirect:'/Layout/crash'
-        },
-        {
           path:'/Layout/crash',
           name: 'crash',
           component: () =>import('../view/Crash'),
@@ -65,21 +61,7 @@ export default new Router({
           component: () =>import('../view/market'),
           serverName:'市值榜',
           children:[]
-        },
-        // {
-        //   path: '/Layout/echarts',
-        //   name: 'echarts',
-        //   component: () =>import('../view/Echarts'),
-        //   serverName:'图表',
-        //   children:[]
-        // },
-        // {
-        //   path: '/Layout/table',
-        //   name: 'table',
-        //   component: () =>import('../view/Table'),
-        //   serverName:'表格',
-        //   children:[]
-        // }
+        }
       ]
     }
   ]
